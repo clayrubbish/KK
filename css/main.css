@@ -18,8 +18,8 @@ textarea {
     color: #222;
 }
 
-body {
-    font-size: 1em;
+html {
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -100,16 +100,38 @@ textarea {
 body {
 	max-width: 960px;
 	margin: 0 auto;
-	background: #f6b76a;
+	background: #0000fe;
+    font-family: Frutiger, "Frutiger Linotype", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .wrapper {
-	background: #5d5542;
+	background: #000034;
 	text-align: center;
 }
 
-nav ul>li{
-	background: #8dc9c7;
+nav ul li{
+	background: #FFCC33;
+	transition: background-color 0.15s ease;
+}
+
+nav li:hover {
+	background-color: #e6b82e;
+}
+
+.banner {
+  overflow:hidden;
+}
+
+.banner h1 {
+  background-image: url("../img/KK28Banner.png");
+  height: 226px;
+  width: 960px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 .content {
@@ -117,16 +139,24 @@ nav ul>li{
     color: #ddd59c;
 }
 
+.content a {
+  color: #ff9933;
+}
+
 article {
   border-bottom: 1px white solid;
 }
 
-article:last-of-type {
-  border-bottom: 0;
+section:last-of-type article:last-of-type {
+	border-bottom: 0;
+}
+
+section:last-of-type {
+  margin-bottom: 1rem;
 }
 
 aside {
-  background: #5ca4a9;
+  background: #01009a;
 }
 
 footer {
@@ -134,16 +164,165 @@ footer {
   font-size: small;
 }
 
+h1 {
+  font-family: GiddyupStd;
+  font-weight: normal;
+}
 
+h1#homedates {
+  color: #ff9933;
+  text-shadow: -0.3rem 0.2rem .1rem black;
+}
 
+.content h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+.googleform {
+  text-align: center;
+}
 
+.googleform iframe {
+  max-width: 100%;
+}
 
+article.paypal {
+  text-align: center;
+}
 
+article.paypal form table{
+  margin: 0 auto;
+}
 
+.testimonial{
+  background: rgba(198,198,198,.35);
+  border: 1rem solid #000034;
+  padding: 1rem;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.testifier {
+  text-align: center;
+  font-style: italic;
+}
+.testimonial .quotation {
+	text-align: justify;
+}
 
+.avatar {
+  margin-bottom: .5rem;
+  max-width: 100%;
+}
 
+.kommitteeposition h2 {
+  height: 3em;
+}
 
+.kommitteeposition .avatar {
+	width: 100%;
+}
+
+.team_row:last-of-type > span {
+  padding-bottom:20px;
+}
+
+table {
+  text-align: center;
+  font-size: smaller;
+}
+
+th {
+  border-bottom: white solid 1px;
+}
+
+tr:nth-child(even) {
+  background: #918266;
+}
+
+table span.semester {
+  font-style: italic;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.allcaps {
+	text-transform: uppercase;
+}
+
+blockquote {
+	white-space: pre;
+}
+
+img.map {
+	max-width:100%;
+}
+
+iframe#twitter-widget-0 {
+  margin-top: 1rem;
+}
+
+div.carousel {
+	text-align: center;
+}
+
+/* Styles for lead image carousel */
+div.carousel#lead > div{
+  width: 200px;
+  height: 133px;
+}
+.carousel #lead_01 {background: url(../img/image_01_133.jpg) no-repeat left center;}
+.carousel #lead_02 {background: url(../img/image_02_133.jpg) no-repeat left center;}
+.carousel #lead_03 {background: url(../img/image_03_133.jpg) no-repeat left center;}
+.carousel #lead_04 {background: url(../img/image_04_133.jpg) no-repeat left center;}
+.carousel #lead_05 {background: url(../img/image_05_133.jpg) no-repeat left center;}
+.carousel #lead_06 {background: url(../img/image_06_133.jpg) no-repeat left center;}
+.carousel #lead_07 {background: url(../img/image_07_133.jpg) no-repeat left center;}
+.carousel #lead_08 {background: url(../img/image_08_133.jpg) no-repeat left center;}
+
+.carousel #lead_10 {background: url(../img/image_10_133.jpg) no-repeat left center;}
+.carousel #lead_11 {background: url(../img/image_11_133.jpg) no-repeat left center;}
+.carousel #lead_12 {background: url(../img/image_12_133.jpg) no-repeat left center;}
+
+.carousel #lead_14 {background: url(../img/image_14_133.jpg) no-repeat left center;}
+.carousel #lead_15 {background: url(../img/image_15_133.jpg) no-repeat left center;}
+.carousel #lead_16 {background: url(../img/image_16_133.jpg) no-repeat left center;}
+.carousel #lead_17 {background: url(../img/image_17_133.jpg) no-repeat left center;}
+.carousel #lead_18 {background: url(../img/image_18_133.jpg) no-repeat left center;}
+.carousel #lead_19 {background: url(../img/image_19_133.jpg) no-repeat left center;}
+.carousel #lead_20 {background: url(../img/image_20_133.jpg) no-repeat left center;}
+.carousel #lead_21 {background: url(../img/image_21_133.jpg) no-repeat left center;}
+.carousel #lead_22 {background: url(../img/image_22_133.jpg) no-repeat left center;}
+.carousel #lead_24 {background: url(../img/image_24_133.jpg) no-repeat left center;}
+.carousel #lead_25 {background: url(../img/image_25_133.jpg) no-repeat left center;}
+.carousel #lead_26 {background: url(../img/image_26_133.jpg) no-repeat left center;}
+.carousel #lead_27 {background: url(../img/image_27_133.jpg) no-repeat left center;}
+.carousel #lead_28 {background: url(../img/image_28_133.jpg) no-repeat left center;}
+.carousel #lead_29 {background: url(../img/image_29_133.jpg) no-repeat left center;}
+.carousel #lead_30 {background: url(../img/image_30_133.jpg) no-repeat left center;}
+.carousel #lead_31 {background: url(../img/image_31_133.jpg) no-repeat left center;}
+.carousel #lead_32 {background: url(../img/image_32_133.jpg) no-repeat left center;}
+.carousel #lead_33 {background: url(../img/image_33_133.jpg) no-repeat left center;}
+.carousel #lead_34 {background: url(../img/image_34_133.jpg) no-repeat left center;}
+.carousel #lead_36 {background: url(../img/image_36_133.jpg) no-repeat left center;}
+
+/* Styles for foot/side notes */
+a.notesymbol {
+	text-decoration: none;
+	margin-left: -2px;
+}
+.notecontainer p {
+	font-size: smaller;
+}
+a.notebacklink {
+	font-style: italic;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -253,6 +432,35 @@ footer {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (max-width: 35rem) {
+  html {
+    font-size: 1.15em;
+  }
+  .content h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .banner h1 {
+    background-image: url("../img/KK28Banner.png");
+    height: 83px;
+    width: 226px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  .carousel#lead {
+    display: none;
+  }
+  .carousel#lead > div {
+    background-image: none;
+  }
 }
 
 @media print,
